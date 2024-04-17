@@ -11,7 +11,7 @@ function App() {
       })
       .then((data) => {
         setUsers(data);
-        console.log(data);
+        //console.log(data);
       });
   }, []);
 

@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React /*{ useState, useEffect }*/ from "react";
 import "./UserDetails.css";
 
-const UserDetails = (props) => {
-  const [user, setUser] = useState({})
-  setUser(props.user);
+const UserDetails = ({user}) => {
+  //const user = props.user
+  /*const [user, setUser] = useState({})
+  setUser(props.user);*/
 
   return (
     <div className="contenedor1">
