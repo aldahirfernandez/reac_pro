@@ -6,14 +6,14 @@ import "./Card.css";
 
 function Card(props) {
 
-  const user = props.user;
+  const character = props.character;
   /*console.log(user);*/
-  const socialLinks = user["social-links"]
+ // const socialLinks = user["social-links"]
 
   return (
     <div className="contenedorDinamico">
-      <UserDetails user = {user}/>
-      <ButtonSection socialLinks ={socialLinks}  />
+      <UserDetails character = {character}/>
+     {/* <ButtonSection socialLinks ={socialLinks}  /> */}
     </div>
 
   )
